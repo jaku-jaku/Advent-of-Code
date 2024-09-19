@@ -133,5 +133,6 @@ int main() {
         }
     }
     std::cout << "+ Total Sum: " << total_sum << std::endl;
+    infile.close();
     return EXIT_SUCCESS;
 }

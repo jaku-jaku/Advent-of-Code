@@ -91,6 +91,7 @@ int main() {
         map.push_back(line);
         // DEBUG_PRINT(line);
     }
+    infile.close(); // Note: not strictly necessary, here, we can release resource early
     
     // 1. finding the starting point
     const size_t H = map.size();
